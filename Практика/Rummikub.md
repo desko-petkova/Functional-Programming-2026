@@ -8,20 +8,20 @@
  1. Изтеглена ръка от разбърканите плочки
  2. Изчисляваме стойността на всички плочки без LINQ
  3. Правим собствен Where функция
-     static List<Tile> FilterTiles(List<Tile> hand, Func<Tile, bool> condition)
-     {
-     List<Tile> result = new List<Tile>();
+    static List<Tile> FilterTiles(List<Tile> hand, Func<Tile, bool> condition)
+    {
+    List<Tile> result = new List<Tile>();
 
-     foreach (Tile tile in hand)
-     {
-         if (condition(tile))
-         {
-             result.Add(tile);
-         }
-     }
+    foreach (Tile tile in hand)
+    {
+        if (condition(tile))
+        {
+            result.Add(tile);
+        }
+    }
 
-     return result;
-     }
+    return result;
+    }
    4. Задачи с FilterTiles() :
       - изведете всички червени плочки от ръката на играча
       - изведете всички плочки със стойност над 7
