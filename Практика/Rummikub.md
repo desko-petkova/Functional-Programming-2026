@@ -40,7 +40,7 @@
 
 ```csharp
 List<Tile> redTiles = hand
-    .Where(tile => tile.Color == "Red")
+    .Where(tile => tile.Color == TileColore.Red)
     .ToList();
 ```
  2. Изчислете общата стойност на всички плочки в ръката чрез Sum().
