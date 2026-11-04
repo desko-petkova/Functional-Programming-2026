@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    border-style: none;
+}
+
+body{
+    margin: 0 auto;
+    background: #6ca0d1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d2944;
+}
+
+.container{
+    padding: 20px;
+}
+
+.menu{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.controls{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
